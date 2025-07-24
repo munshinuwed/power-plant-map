@@ -56,4 +56,4 @@ docker build -t power-plants-map .
 
 Run the container using
 
-docker run -p 5174:5174 power-plants-map
+docker run -p 80:80 power-plants-map

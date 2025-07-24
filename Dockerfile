@@ -15,8 +15,6 @@ FROM nginx:alpine
 # Copy build output from Vite (default: /app/dist)
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Optionally override default nginx config for client-side routing (SPA)
-COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 
