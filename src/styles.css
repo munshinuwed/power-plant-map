@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #f7f7f7;
+  }
+
+  .leaflet-container {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  
+  .top-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+  }
+
+  select {
+    padding: 0.4rem;
+  }
+  
